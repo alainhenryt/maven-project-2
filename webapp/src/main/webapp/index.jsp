@@ -20,8 +20,8 @@
 </head>
 <body>
 <div class="header">
-  <h1>Sample Website</h1>
-  <p>Hello JJTech World!</p>
+  <h1>JJTech Website</h1>
+  <p>Hello Grand Dan.E you are my igcon!</p>
 </div>
 </body>
 </html>
