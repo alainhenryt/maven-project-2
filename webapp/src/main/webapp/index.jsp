@@ -20,8 +20,8 @@
 </head>
 <body>
 <div class="header">
-  <h1>JJTech Website</h1>
-  <p>Hello Grand Dan.E you are my igcon!</p>
+  <h1>Southwood Church of Christ Website</h1>
+  <p>Hello Bro.Roy Gr, Sis.Granny Sandra.Gr, Sis.G-Granny Francilia, Sis.Rosandra hope you are all having a blessed vacation in Calgary!</p>
 </div>
 </body>
 </html>
