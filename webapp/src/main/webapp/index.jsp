@@ -20,8 +20,8 @@
 </head>
 <body>
 <div class="header">
-  <h1>Southwood Church of Christ Website</h1>
-  <p>Hello Bro.Roy Gr, Sis.Granny Sandra.Gr, Sis.G-Granny Francilia, Sis.Rosandra hope you are all having a blessed vacation in Calgary!</p>
+  <h1>FAITH Ongoru</h1>
+  <p>Hi Bb You One in a million!</p>
 </div>
 </body>
 </html>
