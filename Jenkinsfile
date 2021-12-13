@@ -22,8 +22,8 @@ pipeline {
     stage('SonarQube Scan') {
       steps {
         sh """mvn sonar:sonar \
-                -Dsonar.host.url=http://35.183.136.116:9000 \
-                -Dsonar.login=758645ca9fedb0c072d5962e9a1221d9bde5c27a"""
+               -Dsonar.host.url=http://3.96.147.122:9000 \
+               -Dsonar.login=0ef3908c54fa4017e8396c3b3ded1a71405a1362"""
       }
     }
     stage('Upload to Artifactory') {
@@ -32,6 +32,33 @@ pipeline {
       }
 
     }
+    stage ('Server'){
+            steps {
+               rtServer (
+                 id: "Artifactory",
+                 url: 'http://localhost:8082/artifactory',
+                 username: 'ravish',
+                  password: 'YouPasswordHere',
+                  bypassProxy: true,
+                   timeout: 300
+                        )
+            }
+        }
+    stage('Upload'){
+            steps{
+                rtUpload (
+                 serverId:"Artifactory" ,
+                  spec: '''{
+                   "files": [
+                      {
+                      "pattern": "*.war",
+                      "target": "logic-ops-lab-libs-snapshot-local"
+                      }
+                            ]
+                           }''',
+                        )
+            }
+        }
     stage('Deploy to DEV') {
       environment {
         HOSTS = "dev"

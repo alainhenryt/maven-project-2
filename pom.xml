@@ -21,7 +21,7 @@
     <module>webapp</module>
   </modules>
 
-  <distributionManagement>
+<!--   <distributionManagement>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
@@ -34,7 +34,7 @@
         <repository>
             <id>nexus</id>
             <url>http://3.96.144.9/repository/maven-releases/</url>
-        </repository>
+        </repository> -->
   </distributionManagement>
 
   <build>

@@ -20,8 +20,8 @@
 </head>
 <body>
 <div class="header">
-  <h1>FAITH Ongoru</h1>
-  <p>Hi Bb You One in a million!</p>
+  <h1>Hello Cognizant</h1>
+  <p>Hi You One in a million!</p>
 </div>
 </body>
 </html>

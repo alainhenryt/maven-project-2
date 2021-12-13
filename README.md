@@ -1,2 +1,2 @@
-# maven-project
+# POC -SIMPLE MAVEN APP
 
